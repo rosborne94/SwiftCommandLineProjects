@@ -1,8 +1,8 @@
 //
 //  interactive.swift
-//  Tip Calculator macOS
+//  Library-RO
 //
-//  Created by Riley Osborne on 10/10/16.
+//  Created by Riley Osborne on 10/12/16.
 //  Copyright © 2016 Riley Osborne. All rights reserved.
 //
 

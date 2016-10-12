@@ -8,9 +8,16 @@
 
 import Foundation
 
+
+
+
 let interactive = Interactive()
 
-//Run in interactive mode
 interactive.go()
 
 exit(EXIT_SUCCESS)
+
+//var grandTotal = TipCalculator(amount: 20.95, taxPercent: 0.06, tipPercent: 0.30)
+
+
+

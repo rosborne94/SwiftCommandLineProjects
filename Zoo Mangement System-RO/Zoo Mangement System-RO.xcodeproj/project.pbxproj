@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		359990F51DABD8F800BDE1AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359990F41DABD8F800BDE1AF /* main.swift */; };
-		359990FC1DABDB5E00BDE1AF /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359990FB1DABDB5E00BDE1AF /* interactive.swift */; };
-		359990FE1DABE58100BDE1AF /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359990FD1DABE58100BDE1AF /* io.swift */; };
+		3599910E1DAD629F00BDE1AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599910D1DAD629F00BDE1AF /* main.swift */; };
+		359991151DAD62DB00BDE1AF /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991141DAD62DB00BDE1AF /* io.swift */; };
+		359991171DAD62EF00BDE1AF /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991161DAD62EF00BDE1AF /* interactive.swift */; };
+		359991191DAD630500BDE1AF /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991181DAD630500BDE1AF /* animal.swift */; };
+		3599911B1DAD630F00BDE1AF /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599911A1DAD630F00BDE1AF /* people.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		359990EF1DABD8F700BDE1AF /* CopyFiles */ = {
+		359991081DAD629F00BDE1AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		359990F11DABD8F800BDE1AF /* Tip Calculator macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tip Calculator macOS"; sourceTree = BUILT_PRODUCTS_DIR; };
-		359990F41DABD8F800BDE1AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		359990FB1DABDB5E00BDE1AF /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
-		359990FD1DABE58100BDE1AF /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		3599910A1DAD629F00BDE1AF /* Zoo Mangement System-RO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zoo Mangement System-RO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599910D1DAD629F00BDE1AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		359991141DAD62DB00BDE1AF /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		359991161DAD62EF00BDE1AF /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
+		359991181DAD630500BDE1AF /* animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
+		3599911A1DAD630F00BDE1AF /* people.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		359990EE1DABD8F700BDE1AF /* Frameworks */ = {
+		359991071DAD629F00BDE1AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,100 +46,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		359990E81DABD8F700BDE1AF = {
+		359991011DAD629F00BDE1AF = {
 			isa = PBXGroup;
 			children = (
-				359990F31DABD8F800BDE1AF /* Tip Calculator macOS */,
-				359990F21DABD8F800BDE1AF /* Products */,
+				3599910C1DAD629F00BDE1AF /* Zoo Mangement System-RO */,
+				3599910B1DAD629F00BDE1AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		359990F21DABD8F800BDE1AF /* Products */ = {
+		3599910B1DAD629F00BDE1AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				359990F11DABD8F800BDE1AF /* Tip Calculator macOS */,
+				3599910A1DAD629F00BDE1AF /* Zoo Mangement System-RO */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		359990F31DABD8F800BDE1AF /* Tip Calculator macOS */ = {
+		3599910C1DAD629F00BDE1AF /* Zoo Mangement System-RO */ = {
 			isa = PBXGroup;
 			children = (
-				359990F41DABD8F800BDE1AF /* main.swift */,
-				359990FB1DABDB5E00BDE1AF /* interactive.swift */,
-				359990FD1DABE58100BDE1AF /* io.swift */,
+				3599910D1DAD629F00BDE1AF /* main.swift */,
+				359991161DAD62EF00BDE1AF /* interactive.swift */,
+				359991141DAD62DB00BDE1AF /* io.swift */,
+				359991181DAD630500BDE1AF /* animal.swift */,
+				3599911A1DAD630F00BDE1AF /* people.swift */,
 			);
-			path = "Tip Calculator macOS";
+			path = "Zoo Mangement System-RO";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		359990F01DABD8F700BDE1AF /* Tip Calculator macOS */ = {
+		359991091DAD629F00BDE1AF /* Zoo Mangement System-RO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 359990F81DABD8F800BDE1AF /* Build configuration list for PBXNativeTarget "Tip Calculator macOS" */;
+			buildConfigurationList = 359991111DAD629F00BDE1AF /* Build configuration list for PBXNativeTarget "Zoo Mangement System-RO" */;
 			buildPhases = (
-				359990ED1DABD8F700BDE1AF /* Sources */,
-				359990EE1DABD8F700BDE1AF /* Frameworks */,
-				359990EF1DABD8F700BDE1AF /* CopyFiles */,
+				359991061DAD629F00BDE1AF /* Sources */,
+				359991071DAD629F00BDE1AF /* Frameworks */,
+				359991081DAD629F00BDE1AF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Tip Calculator macOS";
-			productName = "Tip Calculator macOS";
-			productReference = 359990F11DABD8F800BDE1AF /* Tip Calculator macOS */;
+			name = "Zoo Mangement System-RO";
+			productName = "Zoo Mangement System-RO";
+			productReference = 3599910A1DAD629F00BDE1AF /* Zoo Mangement System-RO */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		359990E91DABD8F700BDE1AF /* Project object */ = {
+		359991021DAD629F00BDE1AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Riley Osborne";
 				TargetAttributes = {
-					359990F01DABD8F700BDE1AF = {
+					359991091DAD629F00BDE1AF = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 359990EC1DABD8F700BDE1AF /* Build configuration list for PBXProject "Tip Calculator macOS" */;
+			buildConfigurationList = 359991051DAD629F00BDE1AF /* Build configuration list for PBXProject "Zoo Mangement System-RO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 359990E81DABD8F700BDE1AF;
-			productRefGroup = 359990F21DABD8F800BDE1AF /* Products */;
+			mainGroup = 359991011DAD629F00BDE1AF;
+			productRefGroup = 3599910B1DAD629F00BDE1AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				359990F01DABD8F700BDE1AF /* Tip Calculator macOS */,
+				359991091DAD629F00BDE1AF /* Zoo Mangement System-RO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		359990ED1DABD8F700BDE1AF /* Sources */ = {
+		359991061DAD629F00BDE1AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359990FC1DABDB5E00BDE1AF /* interactive.swift in Sources */,
-				359990FE1DABE58100BDE1AF /* io.swift in Sources */,
-				359990F51DABD8F800BDE1AF /* main.swift in Sources */,
+				3599911B1DAD630F00BDE1AF /* people.swift in Sources */,
+				3599910E1DAD629F00BDE1AF /* main.swift in Sources */,
+				359991191DAD630500BDE1AF /* animal.swift in Sources */,
+				359991171DAD62EF00BDE1AF /* interactive.swift in Sources */,
+				359991151DAD62DB00BDE1AF /* io.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		359990F61DABD8F800BDE1AF /* Debug */ = {
+		3599910F1DAD629F00BDE1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		359990F71DABD8F800BDE1AF /* Release */ = {
+		359991101DAD629F00BDE1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +231,7 @@
 			};
 			name = Release;
 		};
-		359990F91DABD8F800BDE1AF /* Debug */ = {
+		359991121DAD629F00BDE1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -231,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		359990FA1DABD8F800BDE1AF /* Release */ = {
+		359991131DAD629F00BDE1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -242,24 +250,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		359990EC1DABD8F700BDE1AF /* Build configuration list for PBXProject "Tip Calculator macOS" */ = {
+		359991051DAD629F00BDE1AF /* Build configuration list for PBXProject "Zoo Mangement System-RO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359990F61DABD8F800BDE1AF /* Debug */,
-				359990F71DABD8F800BDE1AF /* Release */,
+				3599910F1DAD629F00BDE1AF /* Debug */,
+				359991101DAD629F00BDE1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		359990F81DABD8F800BDE1AF /* Build configuration list for PBXNativeTarget "Tip Calculator macOS" */ = {
+		359991111DAD629F00BDE1AF /* Build configuration list for PBXNativeTarget "Zoo Mangement System-RO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				359990F91DABD8F800BDE1AF /* Debug */,
-				359990FA1DABD8F800BDE1AF /* Release */,
+				359991121DAD629F00BDE1AF /* Debug */,
+				359991131DAD629F00BDE1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 359990E91DABD8F700BDE1AF /* Project object */;
+	rootObject = 359991021DAD629F00BDE1AF /* Project object */;
 }
