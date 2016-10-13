@@ -11,7 +11,7 @@ import Foundation
 var currentInput: String = ""
 var billAmount = 25.00
 var taxPercent = 0.06
-var tipPercent = 0.120
+var tipPercent = 0.00
 var numberOfPeople = 1.00
 var grandTotal = 1.00
 var calcComplete: String = ""
@@ -22,13 +22,14 @@ class TipCalculator {
     
     func calculation(){
         
-        let tax = billAmount * taxPercent
+        let tax = billAmount * ((taxPercent ) / 100)
         let total = tax + billAmount // Total amount with tax
         
-        let tip = tipPercent * total
-        grandTotal = tip / numberOfPeople + total / numberOfPeople // Total amount with tip
+        let tip = ((tipPercent) / 100) * total
+        let tipTotal = tip + total
+        grandTotal = tip / numberOfPeople + total  / numberOfPeople // Total amount with tip
         
-        calcComplete = "The tax was \(tax). The total cost \(total) and the tip was \(tip). Each person will pay $\(grandTotal)"
+        calcComplete = "The tax was \(tax). The total cost \(total) and the tip was \(tip). Total with tip is \(tipTotal)  Each person will pay $\(grandTotal)"
         
     }
     func consoleLineStuff () {
