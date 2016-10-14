@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		35181F591DAEC96E0026F500 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35181F581DAEC96E0026F500 /* main.swift */; };
 		35181F601DAED3700026F500 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35181F5F1DAED3700026F500 /* Library.swift */; };
-		35181F621DAED3810026F500 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35181F611DAED3810026F500 /* Books.swift */; };
 		35181F641DAED3A60026F500 /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35181F631DAED3A60026F500 /* interactive.swift */; };
 		35181F661DAED3C50026F500 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35181F651DAED3C50026F500 /* io.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		35181F551DAEC96E0026F500 /* Library-RO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Library-RO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35181F581DAEC96E0026F500 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		35181F5F1DAED3700026F500 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
-		35181F611DAED3810026F500 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		35181F631DAED3A60026F500 /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
 		35181F651DAED3C50026F500 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 				35181F631DAED3A60026F500 /* interactive.swift */,
 				35181F651DAED3C50026F500 /* io.swift */,
 				35181F5F1DAED3700026F500 /* Library.swift */,
-				35181F611DAED3810026F500 /* Books.swift */,
 			);
 			path = "Library-RO";
 			sourceTree = "<group>";
@@ -132,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35181F621DAED3810026F500 /* Books.swift in Sources */,
 				35181F591DAEC96E0026F500 /* main.swift in Sources */,
 				35181F661DAED3C50026F500 /* io.swift in Sources */,
 				35181F641DAED3A60026F500 /* interactive.swift in Sources */,
