@@ -8,10 +8,25 @@
 
 import Foundation
 
-//Ask users for input
-
 class Io {
-    func getInput(){
-        //funciton that takes user input
+    
+    func getInput() -> String {
+        
+        let keyboard = FileHandle.standardInput
+        let inputData = keyboard.availableData
+        let str = NSString(data: inputData, encoding: String.Encoding.utf8.rawValue)
+        if let string = str {
+            return string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+        } else {
+            return "Invalid input!"
+        }
+        
     }
+    
+    func writeOutput(_ output: String) {
+        
+        print("\(output)\n")
+        
+    }
+    
 }

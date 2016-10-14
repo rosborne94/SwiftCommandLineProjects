@@ -8,5 +8,6 @@
 
 import Foundation
 
-//Beginning of program run loop
-//Exit program
+let interactive = Interactive()
+interactive.go()
+

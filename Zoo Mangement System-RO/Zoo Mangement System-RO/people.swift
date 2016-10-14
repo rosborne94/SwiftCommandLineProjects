@@ -7,12 +7,15 @@
 //
 
 import Foundation
-class  People {
-   //Tracking all of the people in the zoo
-}
-class Employees: People  {
-    //Tracking how many employees are working and what exhibitis they are working
-}
-class Visitors: People {
-    //tracking the number of visitors on a day and what exhibits they visited most
+
+class People {
+    
+    var io = Io()
+    var name: String?
+    
+    init(personName: String){
+        self.name = personName
+    }
+    
+    
 }

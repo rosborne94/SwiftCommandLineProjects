@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351515851DB1566D0028E9FB /* zoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351515841DB1566D0028E9FB /* zoo.swift */; };
+		3543C1CF1DB1671F00484C5E /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543C1CE1DB1671F00484C5E /* animal.swift */; };
 		3599910E1DAD629F00BDE1AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599910D1DAD629F00BDE1AF /* main.swift */; };
 		359991151DAD62DB00BDE1AF /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991141DAD62DB00BDE1AF /* io.swift */; };
 		359991171DAD62EF00BDE1AF /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991161DAD62EF00BDE1AF /* interactive.swift */; };
-		359991191DAD630500BDE1AF /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359991181DAD630500BDE1AF /* animal.swift */; };
 		3599911B1DAD630F00BDE1AF /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599911A1DAD630F00BDE1AF /* people.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		351515841DB1566D0028E9FB /* zoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zoo.swift; sourceTree = "<group>"; };
+		3543C1CE1DB1671F00484C5E /* animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
 		3599910A1DAD629F00BDE1AF /* Zoo Mangement System-RO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zoo Mangement System-RO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3599910D1DAD629F00BDE1AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		359991141DAD62DB00BDE1AF /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
 		359991161DAD62EF00BDE1AF /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
-		359991181DAD630500BDE1AF /* animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
 		3599911A1DAD630F00BDE1AF /* people.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,8 +70,9 @@
 				3599910D1DAD629F00BDE1AF /* main.swift */,
 				359991161DAD62EF00BDE1AF /* interactive.swift */,
 				359991141DAD62DB00BDE1AF /* io.swift */,
-				359991181DAD630500BDE1AF /* animal.swift */,
+				3543C1CE1DB1671F00484C5E /* animal.swift */,
 				3599911A1DAD630F00BDE1AF /* people.swift */,
+				351515841DB1566D0028E9FB /* zoo.swift */,
 			);
 			path = "Zoo Mangement System-RO";
 			sourceTree = "<group>";
@@ -134,9 +137,10 @@
 			files = (
 				3599911B1DAD630F00BDE1AF /* people.swift in Sources */,
 				3599910E1DAD629F00BDE1AF /* main.swift in Sources */,
-				359991191DAD630500BDE1AF /* animal.swift in Sources */,
 				359991171DAD62EF00BDE1AF /* interactive.swift in Sources */,
+				351515851DB1566D0028E9FB /* zoo.swift in Sources */,
 				359991151DAD62DB00BDE1AF /* io.swift in Sources */,
+				3543C1CF1DB1671F00484C5E /* animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +270,7 @@
 				359991131DAD629F00BDE1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

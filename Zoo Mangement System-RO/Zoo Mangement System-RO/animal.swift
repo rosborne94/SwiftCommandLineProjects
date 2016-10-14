@@ -11,19 +11,12 @@ import Foundation
 //Listing animal class and subclasses for each animal type
 
 class Animal {
-    //Holds information that relates to all animals
-    //exhibit location number of animals in exhibit
-}
+   var io = Io ()
+    var species: String?
+    
+    init(animalSpecies: String){
+        self.species = animalSpecies
+    }
 
-class Bird {
-    //holds information that is specific to the bird subclass
-    //exhibit location number of animals in exhibit
-}
-class Giraffe {
-    //holds information that is specific to the giraffe subclass
-    //exhibit location number of animals in exhibit
-}
-class Elephant {
-    //holds information that is specific to the elephant subclass
-    //exhibit location number of animals in exhibit
+    
 }
